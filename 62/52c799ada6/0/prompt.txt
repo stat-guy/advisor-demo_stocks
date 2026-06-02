@@ -1,0 +1,13 @@
+in my <~/.claude/skills> or my <~/.codex/skills> i have a skill thats designed for helping with graphical display and i can't remember the name but it's not the json-render skill please help me find it
+
+---
+
+perfect. Now i would like for you to review the PLAN.md document as well as our structure in order to help me come up with words to help our slide-design agent build a slide for my client that quickly and intuitively demonstrates what we i am building for them. the client is non-technical and is a finance advisor. the key is in explaining the value add to our product that we are delivering them so that they can feel the spend was worth it for hiring my consulting group please ask questions as needed as feedback
+
+---
+
+this is a good first stab. Now you are also able to create a .md file with even clearer thoughts. you can make this .md file machine-readable only since it doesn't need to be human-friendly since i'm passing this off to the design agent to create. don't make anything that's to constrained relating to the overall display of our demo. the one-three slides should be more focused on translating the what, why, how of the demo not the nitty gritty specifics. let me know if you'll need more clarity on this. if not feel free to take a first stab and then at the end provide the prompt to share with our slide agent
+
+---
+
+another thing to add in is that today's prototype is more basic however, the future state is to have an orchestrator agent that can route tasks to the correct sector sub-agents to answer more nuanced questions advisors have. for example if an adivsor wants to look up information about P&C insurance company stocks, one of the subagents could specialized in having a agent who can analyze reserve(cash) balance sheets relative to the outstanding claims the company has been paying in order to identify if the company has correctly been pricing its product in order to have enough cash to cover future claims. another agent can specialize in the car industry, another within that domain could be specific to analyzing electic cars, another agent could specialize in analyzing drug company stocks, another semi conductors etc. does this make sense?
