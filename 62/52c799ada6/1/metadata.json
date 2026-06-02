@@ -1,9 +1,11 @@
 {
   "cli_version": "0.6.1",
   "checkpoint_id": "6252c799ada6",
+  "session_id": "50ba3e8e-8f1d-4f89-81b0-8127a8217376",
   "strategy": "manual-commit",
+  "created_at": "2026-06-02T15:24:08.465318Z",
   "branch": "feat/advisor-stock-snapshot",
-  "checkpoints_count": 6,
+  "checkpoints_count": 3,
   "files_touched": [
     ".env.example",
     ".gitignore",
@@ -63,25 +65,59 @@
     "tsconfig.json",
     "vite.config.ts"
   ],
-  "sessions": [
+  "agent": "Claude Code",
+  "model": "claude-opus-4-8[1m]",
+  "turn_id": "a54aac1954c8",
+  "token_usage": {
+    "input_tokens": 20338,
+    "cache_creation_tokens": 523083,
+    "cache_read_tokens": 51092787,
+    "output_tokens": 258027,
+    "api_call_count": 188
+  },
+  "session_metrics": {
+    "turn_count": 7
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-06-02T15:24:08.413551Z",
+    "agent_lines": 4417,
+    "agent_removed": 0,
+    "human_added": 4,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 4421,
+    "total_lines_changed": 4421,
+    "agent_percentage": 99.90952273241348,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
     {
-      "metadata": "/62/52c799ada6/0/metadata.json",
-      "transcript": "/62/52c799ada6/0/full.jsonl",
-      "content_hash": "/62/52c799ada6/0/content_hash.txt",
-      "prompt": "/62/52c799ada6/0/prompt.txt"
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
     },
     {
-      "metadata": "/62/52c799ada6/1/metadata.json",
-      "transcript": "/62/52c799ada6/1/full.jsonl",
-      "content_hash": "/62/52c799ada6/1/content_hash.txt",
-      "prompt": "/62/52c799ada6/1/prompt.txt"
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 256,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 4175,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 4417,
+      "agent_lines_removed": 0
     }
-  ],
-  "token_usage": {
-    "input_tokens": 92639,
-    "cache_creation_tokens": 523083,
-    "cache_read_tokens": 51413427,
-    "output_tokens": 268006,
-    "api_call_count": 199
-  }
+  ]
 }
