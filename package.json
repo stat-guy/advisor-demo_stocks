@@ -1,0 +1,44 @@
+{
+  "name": "advisor-stock-snapshot",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k -n web,api -c blue,magenta \"vite\" \"bun --watch server/index.ts\"",
+    "dev:web": "vite",
+    "dev:server": "bun --watch server/index.ts",
+    "build": "vite build",
+    "start": "bun server/index.ts",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@radix-ui/react-slot": "latest",
+    "@radix-ui/react-tooltip": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "lucide-react": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "latest",
+    "yahoo-finance2": "latest"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "latest",
+    "@tailwindcss/vite": "latest",
+    "@testing-library/dom": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/bun": "latest",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "latest",
+    "concurrently": "latest",
+    "happy-dom": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
